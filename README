@@ -46,6 +46,14 @@ INSTALLATION
             make test
             make install
 
+    NOTE: The installation of this module runs an automatic version
+    check connection which will warn you in case a newer version is
+    available.  Besides, since CPAN does not provide any download
+    statistic to the authors, this check allows Domizio Demichelis
+    (CGI::Builder::* owner) also to keep an installation counter.
+    Version checking is transparent to regular users, while CPAN testers
+    should skip it by running the Makefile.PL with NO_VERSION_CHECK=1.
+
 SYNOPSIS
         # just include it in your build
     

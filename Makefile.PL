@@ -1,7 +1,7 @@
 use ExtUtils::MakeMaker;
 
 my $dist = 'CGI::Builder::TT2';
-my $vers = '0.01';
+my $vers = '0.02';
 
 WriteMakefile(
     NAME      => $dist,
