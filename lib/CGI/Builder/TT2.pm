@@ -1,6 +1,6 @@
 package CGI::Builder::TT2;
 
-$VERSION = 0.02;
+$VERSION = 0.03;
 
 use strict;
 use Scalar::Util;
@@ -148,8 +148,8 @@ CGI::Builder::TT2 - CGI::Builder and Template Toolkit 2 integration
 
 =item Prerequisites
 
-    CGI::Builder    >= 1.2
-    Template        >= 1.12
+    CGI::Builder    >= 1.12
+    Template        >= 2.0
 
 =item CPAN
 
@@ -163,14 +163,6 @@ From the directory where this file is located, type:
     make
     make test
     make install
-
-B<Note>: The installation of this module runs an automatic version check
-connection which will warn you in case a newer version is available.
-Besides, since CPAN does not provide any download statistic to the
-authors, this check allows Domizio Demichelis (CGI::Builder::* owner) also
-to keep an installation counter.  Version checking is transparent to
-regular users, while CPAN testers should skip it by running the
-Makefile.PL with NO_VERSION_CHECK=1.
 
 
 =back

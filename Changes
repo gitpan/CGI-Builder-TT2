@@ -1,3 +1,10 @@
+2004-06-24 Stefano Rodighiero <larsen@perl.it>
+
+   0.03 
+
+   Version check in Makefile.PL abandoned.
+
+
 2004-06-22 Stefano Rodighiero <larsen@perl.it>
 
    0.02
